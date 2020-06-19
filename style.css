@@ -37,6 +37,12 @@ section span:before {
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 480px) {
+    section h2 {
+        font-size: 4em;
+    }
+}
+
 @keyframes animate {
     0% {
         transform: translateY(0%);
@@ -50,3 +56,4 @@ section span:before {
         opacity: 0;
     }
 }
+
